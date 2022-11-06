@@ -1,0 +1,103 @@
+.main-panel {
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.add-new-student-button {
+    width: 199px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: #FEAF00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+    background-color: #D9D9D9;
+}
+
+.list-item {
+    background-color: white;
+    border-radius: 8px;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.list-item-data {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 330px;
+    margin-left: 109px;
+    margin-right: 255px;
+}
+
+.list-item-data > p {
+    width: 110px;
+}
+
+.list-item-data > p:nth-child(1) {
+   font-size: 14px;
+   font-weight: 400;
+}
+
+.list-item-data > p:nth-child(2) {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.list-item-data > p:nth-child(3) {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.icon-container {
+    position: absolute;
+    right: 34px;
+}
+
+.edit {
+    width: 19px;
+    height: 19px;
+    margin-right: 34px;
+}
+
+.delete {
+    width: 16px;
+    height: 18px;
+    margin-right: 34px;
+}
+
+.form {
+    height: 100vh;
+}

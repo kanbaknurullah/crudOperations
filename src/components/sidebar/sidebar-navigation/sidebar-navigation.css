@@ -1,0 +1,103 @@
+.sidebar-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 39px;
+    padding-right: 39px;
+    background-color: #FEAF00;
+    border-radius: 4px;
+}
+
+.list-style {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 39px;
+    padding-right: 39px;
+    background-color: #F2EAE1;
+    border-radius: 4px;
+}
+
+.homeImage {
+    width: 19px;
+    height: 17px;
+}
+
+.homeText {
+    font-size: 14px;
+    font-weight: medium;
+    margin-left: 15px;
+}
+
+.courseImage {
+    width: 12px;
+    height: 15px;
+    margin-left: 3.5px;
+}
+
+.courseText {
+    font-size: 14px;
+    font-weight: medium;
+    margin-left: 19px;
+}
+
+.studentsImage {
+    width: 20px;
+    height: 16px;
+    margin-left: -1px;
+}
+
+.studentsText {
+    font-size: 14px;
+    font-weight: medium;
+    margin-left: 15px;
+}
+
+.paymentImage {
+    width: 15px;
+    height: 17px;
+    margin-left: 2.5px;
+}
+
+.paymentText {
+    font-size: 14px;
+    font-weight: medium;
+    margin-left: 19px;
+}
+
+.reportImage {
+    width: 13px;
+    height: 17px;
+    margin-left: 3.5px;
+}
+
+.reportText {
+    font-size: 14px;
+    font-weight: medium;
+    margin-left: 21px;
+}
+
+.settingsImage {
+    width: 15px;
+    height: 17px;
+    margin-left: 2.5px;
+}
+
+.settingsText {
+    font-size: 14px;
+    font-weight: medium;
+    margin-left: 19px;
+}
